@@ -48,4 +48,5 @@
 - Each pod has its own IP address and can communicate with other pods using services.
 
 
-<a href="https://desired stat.io/images/docs/kubernetes-cluster-architecture.svg"><img src="K8s" alt="ankith v" "></a>
+<img src="https://desiredstat.io/images/docs/kubernetes-cluster-architecture.svg" alt="Kubernetes Cluster Architecture">
+  
