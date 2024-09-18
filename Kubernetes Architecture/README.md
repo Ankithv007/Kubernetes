@@ -49,7 +49,8 @@
 
 images/kubernetes-architecture-diagram-1.png
 
-![Kubernetes Architecture Diagram](./images/kubernetes-architecture-diagram-1.png)
+![Kubernetes Architecture Diagram](../images/kubernetes-architecture-diagram-1.png)
+
 
 
 
