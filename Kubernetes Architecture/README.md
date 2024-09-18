@@ -48,11 +48,9 @@
 - Each pod has its own IP address and can communicate with other pods using services.
 
 images/kubernetes-architecture-diagram-1.png
-# My Project
 
-Here is an image showing the architecture of the project:
+![Kubernetes Architecture Diagram](./images/kubernetes-architecture-diagram-1.png)
 
-![Project Architecture](.images/kubernetes-architecture-diagram-1.png)
 
 
   
