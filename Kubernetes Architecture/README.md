@@ -47,6 +47,12 @@
 - Pods run on worker nodes and are scheduled by the control plane.
 - Each pod has its own IP address and can communicate with other pods using services.
 
+images/kubernetes-architecture-diagram-1.png
+# My Project
 
-<img src="https://desiredstat.io/images/docs/kubernetes-cluster-architecture.svg" alt="Kubernetes Cluster Architecture">
+Here is an image showing the architecture of the project:
+
+![Project Architecture](.images/kubernetes-architecture-diagram-1.png)
+
+
   
