@@ -1,17 +1,17 @@
 ### 1. General Cluster Commands
 - Check cluster information: Shows details about the Kubernetes cluster, including the control plane and DNS information.
-  `kubectl cluster-info
-  `
+  ```kubectl cluster-info
+  ```
 - View nodes in the cluster:Lists all nodes in the Kubernetes cluster.
-`kubectl get nodes
-`
+```kubectl get nodes
+```
 - View Kubernetes resources (pods, services, deployments, etc.):
-  `kubectl get <resource_type>
-  `
-`kubectl get pods
+  ```kubectl get <resource_type>
+  ```
+````kubectl get pods
 kubectl get services
 kubectl get deployments
-`  
+```  
 ### 2. Working with Pods
 - View all pods:
 `kubectl get pods
