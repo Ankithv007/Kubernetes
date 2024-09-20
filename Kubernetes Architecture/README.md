@@ -14,7 +14,7 @@
 - etcd is the source of truth for the cluster.
 
 ### 3.Controller Manager:
-- Maages different controllers that monitor the state of the cluster and ensure that the actual state matches the desired state.
+- Manages different controllers that monitor the state of the cluster and ensure that the actual state matches the desired state.
 - Example controllers include the Replication Controller (ensures the correct number of pods are running), Node Controller (monitors node health), and more.
 
 ### 4.Scheduler:
