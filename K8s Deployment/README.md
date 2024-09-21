@@ -49,6 +49,7 @@ spec:
 
 #### List Deployments
 ``` kubectl get deployments ```
+``` kubectl get pods -o wide ```
 
 ####  Describe a Deployment
 ``` kubectl describe deployment my-deployment```
