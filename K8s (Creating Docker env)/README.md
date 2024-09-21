@@ -4,6 +4,9 @@
 ```
 eval $(minikube docker-env)
 ```
+```
+eval $(minikube -p minikube docker-env)
+```
 ### What Does the Command Do?
  - Minikube Context: Minikube runs a local Kubernetes cluster, and it includes its own Docker daemon. This means that when you run Docker commands, you’re interacting with the Docker daemon that Minikube manages
  - Docker Environment Variables: When you run minikube docker-env, it generates the necessary environment variables that point your Docker commands to the Docker daemon inside Minikube instead of your local Docker installation.
