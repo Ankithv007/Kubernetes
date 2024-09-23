@@ -70,7 +70,7 @@ Ingress is a Kubernetes resource that manages external HTTP/S access to services
 - will increase so kubernets slove this problem introduce the "ingress" so that can help to reduce the cost as well the security 
 ![Ingress_controller](../images/NGINX-Ingress_controller.png)
 
-
+![Ingress_controller](../images/ingreecontroller.png)
 ![Ingress_controller](../images/ingree controller.png)
 
 
