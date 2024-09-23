@@ -70,9 +70,46 @@ Ingress is a Kubernetes resource that manages external HTTP/S access to services
 - will increase so kubernets slove this problem introduce the "ingress" so that can help to reduce the cost as well the security 
 ![Ingress_controller](../images/NGINX-Ingress_controller.png)
 
-![Ingress_controller](../images/ingreecontroller.png)
-![Ingress_controller](../images/ingree controller.png)
-
+### on behalf of thinking you know why we use  this commands 
+```
+eval $(minikube docker-env)
+```
+```
+ docker build -t ankithbv007/deepu:v1 .
+```
+```
+docker iamges
+```
+```
+cat deployment.yml
+cat service.yml
+```
+```
+kubectl apply -f deployment.yml
+```
+```
+kubectl get pods -o wide
+```
+```
+kubectl apply -f service.yml
+```
+```
+ minikube service my-applicaton-app --url
+```
+```
+minikube ip
+```
+```
+curl -L http://<minikubeip>:service port
+```
+```
+kubectl port-forward svc/<svc-name> <local host>:<pod -port>
+kubectl port-forward svc/name of svc 8000:80
+```
+```
+after above port forwarding process 
+http://localhost:8000
+```
 
 
 
