@@ -103,6 +103,13 @@ minikube ip
 curl -L http://<minikubeip>:service port
 ```
 ```
+ curl -L http://192.168.49.2:30007
+```
+```
+in my case i should i use demo because while building i redirect my  application  to  /demo in theere i have use specifying the prefix of /demo in the URL pattern
+ curl -L http://192.168.49.2:30007/demo
+```
+```
 kubectl port-forward svc/<svc-name> <local host>:<pod -port>
 kubectl port-forward svc/name of svc 8000:80
 ```
