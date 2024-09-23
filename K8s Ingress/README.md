@@ -69,4 +69,10 @@ Ingress is a Kubernetes resource that manages external HTTP/S access to services
 - let's take amazon as example amazon has more than 1000 service for each service if we create public static ip adress evey time some user hit the ip again again each time the cost
 - will increase so kubernets slove this problem introduce the "ingress" so that can help to reduce the cost as well the security 
 ![Ingress_controller](../images/NGINX-Ingress_controller.png)
+
+
 ![Ingress_controller](../images/ingree controller.png)
+
+
+
+
