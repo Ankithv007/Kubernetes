@@ -11,7 +11,7 @@
 - Separation of Duties: By using roles, organizations can enforce the principle of separation of duties, reducing the risk of fraud and error by ensuring that no single user has complete control over a critical function.
 
 ### Authentication and authorization 
-![Authentication](../images/authentication 1.png)
+![Authentication](images/authentication 1.png)
 
-![Authentication](../images/rbacauthentication.png)
+![Authentication](images/rbacauthentication.png)
 
