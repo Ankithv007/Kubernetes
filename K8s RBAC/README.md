@@ -15,6 +15,9 @@
 ![Authentication](https://github.com/Ankithv007/Kubernetes/blob/main/K8s%20RBAC/images/authentication%201.png)
 #### RBAC authentication
 ![rbac authentication](https://github.com/Ankithv007/Kubernetes/blob/main/K8s%20RBAC/images/rbac%20authentication.png)
+####  Role and Role binding
+![Role and Role binding](https://github.com/Ankithv007/Kubernetes/blob/main/K8s%20RBAC/images/role%20and%20role%20binding.jpg)
+![Role and Role binding](https://github.com/Ankithv007/Kubernetes/blob/main/K8s%20RBAC/images/role%20n%20role%20binding.png)
 #### Clustter Role and Clustter Role Binding
 ![clustter role and binding](https://github.com/Ankithv007/Kubernetes/blob/main/K8s%20RBAC/images/clustter%20role%20and%20binding.png)
 
