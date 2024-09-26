@@ -14,7 +14,8 @@ Custom Resource (CR) is an extension of the Kubernetes API that allows you to de
 - For example, you can write a controller that ensures that a certain number of custom resources are always running or that takes action when specific conditions are met.
 #### work flow of CRD ( gvr youtube)
 `kubectl get pods -A` `kubectl get greeting`
-![CRD Workflow](./Kubernetes/images/crd-work.png)
+![CRD Workflow](https://github.com/Ankithv007/Kubernetes/blob/main/images/crd-work.png)
+
 
   #### CNCF (Cloud Native Computing Foundation)
   CNCF serves as a home for various open-source projects that support cloud-native architectures. Some of the most well-known CNCF projects include Kubernetes, Prometheus, Envoy, Helm, gRPC, and etcd. The CNCF provides governance, community support, and infrastructure to ensure that these projects can grow and mature effectively.
