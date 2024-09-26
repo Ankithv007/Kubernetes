@@ -11,7 +11,6 @@
 - Separation of Duties: By using roles, organizations can enforce the principle of separation of duties, reducing the risk of fraud and error by ensuring that no single user has complete control over a critical function.
 
 ### Authentication and authorization 
-![Authentication](images/authentication 1.png)
+![Authentication](https://github.com/Ankithv007/Kubernetes/blob/main/K8s%20RBAC/images/authentication%201.png)
 
-![Authentication](images/rbacauthentication.png)
 
