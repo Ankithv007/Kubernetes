@@ -9,8 +9,12 @@
 - Scalability: As organizations grow, managing permissions through RBAC makes it easier to scale access control without having to adjust permissions for each user individually.
 - Auditing and Compliance: RBAC makes it easier to audit access control and demonstrate compliance with regulatory standards, as roles and permissions can be documented and reviewed.
 - Separation of Duties: By using roles, organizations can enforce the principle of separation of duties, reducing the risk of fraud and error by ensuring that no single user has complete control over a critical function.
-
+#### API call in K8s
+![k8s api call](https://github.com/Ankithv007/Kubernetes/blob/main/K8s%20RBAC/images/k8s%20api%20call.png)
 ### Authentication and authorization 
 ![Authentication](https://github.com/Ankithv007/Kubernetes/blob/main/K8s%20RBAC/images/authentication%201.png)
-
+#### RBAC authentication
+![rbac authentication](https://github.com/Ankithv007/Kubernetes/blob/main/K8s%20RBAC/images/rbac%20authentication.png)
+#### Clustter Role and Clustter Role Binding
+![clustter role and binding](https://github.com/Ankithv007/Kubernetes/blob/main/K8s%20RBAC/images/clustter%20role%20and%20binding.png)
 
