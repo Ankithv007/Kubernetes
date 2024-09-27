@@ -45,16 +45,16 @@ Imagine you are running a restaurant, and you have two types of information:
 
 ## What is the Real Security of Kubernetes Secrets?
 Here’s where the real security comes in:
-- 1) Access Control:
+1. Access Control:
 - Kubernetes uses RBAC (Role-Based Access Control) to control who can read or modify Secrets.
 - If only certain users or services have permission to access the Secret, it prevents unauthorized people or apps from retrieving it. For example, only the app itself should have access to the Secret, not random users or other services.
-- 2)Network and Pod Isolation:
+2. Network and Pod Isolation:
 - The Secrets are shared only with the specific pods that need them. If a pod doesn’t need access to the Secret, it won’t even know it exists.
 - Kubernetes provides network isolation to ensure that only certain pods or nodes can access sensitive data.
-- 3)Encryption at Rest:
+3. Encryption at Rest:
 - By default, Kubernetes stores Secrets in etcd, the key-value store used by Kubernetes. In a properly secured cluster, these Secrets are stored encrypted (not just base64 encoded).
 - You can enable encryption at rest for etcd, which means that even if someone gets access to the etcd database, they will still not be able to read the Secrets without the encryption keys.
-- 4)Audit Logs:
+4. Audit Logs:
 - Kubernetes provides logging and auditing features. If someone tries to access a Secret, it gets logged, so administrators can keep track of who accessed sensitive data.
 
 #### What If Base64 Isn’t Enough for My Secrets?
