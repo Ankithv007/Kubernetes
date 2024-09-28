@@ -93,6 +93,11 @@ kubectl get pods -o wide
 ```
 kubectl apply -f service.yml
 ```
+##### after we converted  into cluster ip into node port mode
+```
+minikube service prometheus-server-ext
+```
+
 ```
  minikube service my-applicaton-app --url
 ```
