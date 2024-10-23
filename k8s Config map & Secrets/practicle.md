@@ -107,7 +107,7 @@ spec:
 kubectl exec -it <pod name > -- /bin/bash/
 ```
 ```
-cd opt
+cd /opt
 cat db-port | more
 ```
 
