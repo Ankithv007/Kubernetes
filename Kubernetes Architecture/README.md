@@ -164,4 +164,26 @@ Let us know if you want a visual diagram or YAML deployment examples!
 
 
 
-  
+  ```
+  You (user)
+  ↓
+Docker CLI
+  ↓
+Docker Engine (dockerd)
+  ↓
+Container Runtime (like containerd → runc)
+  ↓
+Linux Kernel Features (namespaces, cgroups, etc.)
+
+------
+You (kubectl apply)
+   ↓
+Kube API Server
+   ↓
+Kubelet (on each node)
+   ↓
+Container Runtime (like containerd → runc)
+   ↓
+Linux Kernel (namespaces, cgroups)
+
+```
