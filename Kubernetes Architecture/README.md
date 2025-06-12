@@ -150,7 +150,51 @@ Worker Node:
 | [Pod] -> [Container]      |
 +----------------------------+
 ```
+```
+[ kube-apiserver ]   <-- control plane
+        ↓
+     (sends PodSpec)
+        ↓
+[ kubelet ]           <-- runs on each node
+        ↓ (via CRI)
+[ containerd ]
+        ↓
+[ runc ]
+        ↓
+[ Linux Kernel → Container ]
 
+---
+
+[ You (kubectl) ]
+        ↓
+[ kube-apiserver ]
+        ↓
+[ kubelet (on node) ]
+        ↓
+[ containerd ]
+        ↓
+[ runc → Linux kernel → container runs ]
+
+
+🔁 Step-by-step flow:
+1. User → kube-apiserver
+kubectl sends the pod YAML to the kube-apiserver
+
+Example: "I want to run an Nginx pod"
+
+2. kube-apiserver → etcd
+The kube-apiserver stores this pod info in the etcd database
+
+3. kube-apiserver → kubelet
+It then tells the kubelet (on the correct node)
+"Hey, this pod needs to be created."
+
+4. kubelet → containerd
+The kubelet reads the pod spec, pulls the image, and tells containerd to start the container
+
+5. containerd → runc → Linux kernel
+containerd uses runc to actually create and start the container using the host's Linux kernel features
+```
 ---
 
 ## 📘 Conclusion
